@@ -2,7 +2,7 @@
 
 This project provisions a complete server-based infrastructure on AWS using **Terraform**. It deploys a containerized application to **AWS ECS Fargate** behind a **Load Balancer**, within a secure **VPC** network.
 
-## 📦 What’s Deployed
+## Key Components Included:
 
 - **VPC** with:
   - 2 Public Subnets
@@ -17,7 +17,7 @@ This project provisions a complete server-based infrastructure on AWS using **Te
   - In public subnets
   - Forwards traffic to ECS service in private subnets
 
-### Steps 
+## Steps 
 - create terraform.tf file and Outputs.tf file
 - write code in terraform.tf file and output.tf file 
 
